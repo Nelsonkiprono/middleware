@@ -1,0 +1,16 @@
+POST /palla-api/api/overpayment HTTP/1.1
+Accept:          */*
+Accept-Encoding: gzip, deflate, br
+Connection:      keep-alive
+Content-Length:  83
+Content-Type:    application/json
+Host:            localhost
+Postman-Token:   d444db9b-d512-42c0-a02b-e0e2a5cda382
+User-Agent:      PostmanRuntime/7.29.2
+
+{
+"CustId":"12",
+"loanid":"17234",
+"Amount":"100",
+"TransDate":"09 November 2022"
+}
